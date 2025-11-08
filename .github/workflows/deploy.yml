@@ -3,7 +3,7 @@ name: Deploy to AWS ECR and ECS
 on:
   push:
     branches: [ "main" ]
-
+#llll
 jobs:
   deploy:
     runs-on: ubuntu-latest
