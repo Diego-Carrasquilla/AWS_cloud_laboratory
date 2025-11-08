@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import os
 
 app = FastAPI(title="SimpleHelloAPI")
-#lerolero
+
 @app.get("/hello")
 def read_root(name: str = "Mundo"):
         ambiente = os.getenv("AMBIENTE_DESPLIEGUE", "Local")
